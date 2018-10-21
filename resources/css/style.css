@@ -1,0 +1,443 @@
+/* ========================================== */
+/* BASIC SETUP */
+/* ========================================== */
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-family: 'Crimson Text', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+    color: #fff;
+}
+
+h1, 
+h2,
+h3 {
+    text-transform:uppercase;
+}
+
+header {
+    background-image: url(../img/background.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+.logo {
+    font-weight: 400;
+    font-size: 250%;
+    width: auto;
+    float: left;
+    margin-left: 40px;
+    margin-top: 22px;
+}
+
+/* ========================================== */
+/* REUSABLE COMPONENTS */
+/* ========================================== */
+
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;  /*This is the most simplified version. Works the same as "0 auto 0 auto"*/
+}
+
+/**section { padding: 80px 0; }**/
+
+h1 {
+    font-size: 200%;
+}
+
+
+/* ========================================== */
+/* MAIN NAV */
+/* ========================================== */
+
+.main-nav {
+    float: right;
+    list-style: none;
+    margin-top: 35px;
+    margin-right: 40px;
+}
+
+.main-nav li {
+    display: inline-block;
+    margin-left: 40px;
+}
+
+.main-nav li a:link, 
+.main-nav li a:visited {
+    text-decoration: none;
+    font-size: 125%;
+    color: #fff;
+    text-transform: uppercase;
+    border-bottom: 2px solid transparent;
+    -webkit-transition: border-bottom 0.5s;
+    -o-transition: border-bottom 0.5s;
+    transition: border-bottom 0.5s;
+}
+
+.main-nav li a:hover, 
+.main-nav li a:active {
+    border-bottom: 2px solid #ff0000;
+}
+
+
+/* ========================================== */
+/* SELECTION */
+/* ========================================== */
+
+.choices {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.select {
+    margin-bottom: 50px;
+}
+
+*:focus { outline: none; }
+
+.lbl-1 {
+    float: left;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.lbl-2 {
+    float: right;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.guitar-selection {
+    float: left;
+    margin-left: 12%;
+}
+
+.guitar-brand {
+    float: right;
+    margin-right: 12%;
+}
+
+.sel-box {
+    text-transform: uppercase;
+    width: 200px;
+    height: 48px;
+    border-radius: 5px;
+    font-size: 100%;
+    font-family: 'Crimson Text', sans-serif;
+    text-align-last: center;
+}
+
+
+/* ========================================== */
+/* BUTTON */
+/* ========================================== */
+
+
+.go-btn {
+    margin-top: 60px;
+    padding-top: 3px;
+    font-size: 120%;
+    width: 200px;
+    height: 40px;
+    background-color: rgba(0, 185, 0, 0.7);
+    border: 1px solid #fff;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-transition: background-color 0.5s;
+    -o-transition: background-color 0.5s ;
+    transition: background-color 0.5s ;
+}
+
+.go-btn a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.go-btn:hover,
+.go-btn:active {
+    background-color: #00d000;
+}
+
+.your-choice {
+    margin-top: 60px;
+    line-height: 140%;
+    font-size: 120%
+}
+
+
+/* ========================================== */
+/* HOW TO */
+/* ========================================== */
+
+
+.descrip {
+    margin-top: 60px;
+    color: #656565;
+    text-align: center;
+    width: 700px;
+}
+
+.how-to {
+    color: #656565;
+    margin-top: 60px;
+    width: 100%;
+    height: 250px;
+    text-align: justify;
+    line-height: 145%;
+}
+
+.how-to h2 {
+    margin-bottom: 20px;
+}
+
+.how-to p {
+    padding-right: 10%;
+}
+
+
+hr {
+    height: 12px;
+    border: 0;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    box-shadow: inset 0 15px 15px -15px rgba(0, 0, 0, 0.5);
+    width: 1300px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+/* ========================================== */
+/* TRIBUTE */
+/* ========================================== */
+
+.container {
+    width: 100%;
+    height: 570px;
+}
+
+.container li {
+    display: inline-block;
+    margin-right: -27px;
+    width: 33.33%;
+}
+
+.dime {
+    background-image: url(../img/dime3.jpeg);
+    background-size: 100% 540px;
+    float: left;
+    height: 540px;
+    background-repeat: no-repeat;
+    margin-bottom: 50px;
+}
+
+.dime h2,
+.randy h2,
+.stevie h2 {
+    margin-top: 5%;
+    margin-left: 3%;
+    margin-bottom: 5%;
+}
+
+.dime p,
+.randy p {
+    margin-left: 3%;
+    font-size: 110%
+}
+
+.randy {
+    background-image: url(../img/randy2.jpeg);
+    background-size: 100% 540px;
+    float: left;
+    height: 540px;
+    background-repeat: no-repeat;
+    margin-bottom: 50px;
+}
+
+
+.stevie {
+    background-image: url(../img/stevie2.jpeg);
+    background-size: 100% 540px;
+    float: left;
+    height: 540px;
+    background-repeat: no-repeat;
+    margin-bottom: 50px;
+}
+
+.stevie h2 {
+    float: right;
+    margin-top: 5%;
+    margin-right: 3%;
+    margin-bottom: 5%;
+}
+
+.stevie p {
+    clear: both;
+    float: right;
+    margin-right: 3%;
+    font-size: 110%;
+}
+
+
+/* ========================================== */
+/* FORM */
+/* ========================================== */
+
+
+.contact-form {
+    margin-left: 15%;
+}
+
+
+.form-box {
+    background-image: url(../img/acoustic_background2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 769px;
+    height: 769px;
+    margin-top: 40px;
+    color: #fff;
+}
+
+.form-box h3 {
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+
+*:focus { outline: none; } /* Gets rid of the outline when selected */
+
+input[type = text],
+input[type = email],
+select,
+textarea {
+    width: 300px;
+    padding: 10px;
+    border-radius: 3px;
+    margin-bottom: 30px;
+    border: 1px solid #fff;
+    font-family: 'Merriweather', sans-serif;
+}
+
+textarea {
+    height: 100px;
+}
+
+input[type = checkbox] {
+    margin: 10px 5px 30px 0px;
+}
+
+input[name = bass],
+input[name = acoustic] {
+    margin-left: 30px;
+}
+
+
+.send-btn {
+    margin-top: 20px;
+    padding-top: 3px;
+    font-size: 120%;
+    width: 200px;
+    height: 40px;
+    background-color: rgba(0, 185, 0, 0.6);
+    border: 1px solid #fff;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-transition: background-color 0.5s;
+    -o-transition: background-color 0.5s ;
+    transition: background-color 0.5s ;
+}
+
+.send-btn a {
+    text-decoration: none;
+    color: #fff;
+    margin-left: 25%;
+}
+
+.send-btn:hover,
+.send-btn:active {
+    background-color: rgba(6, 180, 13, 1);
+}
+
+/* ========================================== */
+/* FOOTER*/
+/* ========================================== */
+
+footer {
+    background-color: #333;
+    padding: 50px;
+    font-size: 80%;
+}
+
+.footer-nav {
+    list-style: none;
+    float: left;
+}
+
+.social-links {
+    list-style: none;
+    float: right;
+}
+
+.footer-nav li,
+.social-links li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.footer-nav li:last-child,
+.social-links li:last-child { margin-right: 0; }
+
+.footer-nav li a:link,
+.footer-nav li a:visited,
+.social-links li a:link,
+.social-links li a:visited {
+    text-decoration: none;
+    border: 0;
+    color: #888;
+    -webkit-transition: color 0.3s;
+    -o-transition: color 0.3s;
+    transition: color 0.3s;
+}
+
+.footer-nav li a:hover,
+.footer-nav li a:active { color: #ddd; }
+
+.social-links li a:link,
+.social-links li a:visited { font-size: 160%; }
+
+.ion-logo-facebook,
+.ion-logo-twitter,
+.ion-logo-googleplus,
+.ion-logo-instagram { -webkit-transition: color 0.3s; -o-transition: color 0.3s; transition: color 0.3s; }
+
+.ion-logo-facebook:hover { color: #3b5998; }
+
+.ion-logo-twitter:hover { color: #55acee; }
+
+.ion-logo-googleplus:hover { color: #dd4b39; }
+
+.ion-logo-instagram:hover { color: #e95950; }
+
+footer p {
+    color: #888;
+    text-align: center;
+    margin-top: 20px;
+}
+
