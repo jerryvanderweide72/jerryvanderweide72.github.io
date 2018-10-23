@@ -18,16 +18,17 @@
 </head>
 
 <body>
-    <header>
-        <nav>
+    <header id="home">
+        <nav class="navbar">
             <div class="row">
-                <h1 class="logo">Choose Your Axe</h1>
+                <image class="logo" src="../resources/img/cya_logo2.png" alt="Choose Your Axe Logo"></image>
                 <ul class="main-nav">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">How To</a></li>
-                    <li><a href="#">Tribute</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#howto">How To</a></li>
+                    <li><a href="#tribute">Tribute</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
+                <a class="mobile-nav-icon"><i class="icon ion-md-menu"></i></a>
             </div>
         </nav>
     </header> 
@@ -108,7 +109,7 @@
         </div>
     </section>
     
-    <section>
+    <section id="howto">
         <div class="row descrip">
             <h1>Here is how this website works!</h1>
             <p>
@@ -141,6 +142,13 @@
     </section>
     
     <hr>
+    <div class="row" id="tribute">
+        <div class="col span-2-of-2 tributeto">
+            <image class="flyingv-left" src="../resources/img/flyingv-left.png" alt="Flying V"></image>
+            <h1>Tribute Section</h1>
+            <image class="flyingv-right" src="../resources/img/flyingv-right.png" alt="Flying V"></image>
+        </div>
+    </div>
     
     <section>
         <ul class="container">
@@ -187,7 +195,7 @@
     </section>
     
     
-    <div class="form-box">
+    <div class="form-box" id="contact">
         <div class="row">
             <h3>Please send us suggestions for any guitars you may like to have added.</h3>
         </div>
