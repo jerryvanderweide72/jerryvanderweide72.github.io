@@ -9,6 +9,7 @@
     
     <link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
     <link rel="stylesheet" type="text/css" href="resources/css/style.css">
+    <link rel="stylesheet" type="text/css" href="resources/css/queries.css">
     <link href="https://fonts.googleapis.com/css?family=Crimson+Text:400,600" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="vendors/css/ionicons.min.css">
     <title>Choose Your Axe</title>
@@ -40,22 +41,15 @@
             <div class="row">
                 <div class="col span-1-of-2 lbl-1">
                     <h3>STYLE</h3>
-                </div>
-                <div class="col span-1-of-2 lbl-2">
-                    <h3>BRAND</h3>
-                </div>
-            </div>
-        
-            <div class="row">
-                <div class="col span-1-of-2">
                     <select class="guitar-selection sel-box" id="type">
                         <option value="electric" selected>Electric</option>
                         <option value="bass">Bass</option>
                         <option value="acoustic">Acoustic</option>
                     </select>
                 </div>
-
-                <div class="col span-1-of-2">
+                
+                <div class="col span-1-of-2 lbl-2">
+                    <h3>BRAND</h3>
                     <select class="guitar-brand sel-box" id="electric">
                         <option selected><a href="#">Fender</a></option>
                         <option><a href="#">Gibson</a></option>
@@ -142,58 +136,72 @@
     </section>
     
     <hr>
-    <div class="row" id="tribute">
-        <div class="col span-2-of-2 tributeto">
-            <image class="flyingv-left" src="../resources/img/flyingv-left.png" alt="Flying V"></image>
+    
+    <div class="tributeto">
+        <div class="tribute-box">
+            <img class="flyingv-left" src="../resources/img/flyingv-left.png" alt="Flying V">
+        </div>
+        <div class="tribute-box">
             <h1>Tribute Section</h1>
-            <image class="flyingv-right" src="../resources/img/flyingv-right.png" alt="Flying V"></image>
+        </div>
+        <div class="tribute-box">
+            <img class="flyingv-right" src="../resources/img/flyingv-right.png" alt="Flying V">
         </div>
     </div>
     
+    
     <section>
-        <ul class="container">
-            <li class="col span-1-of-3 dime">
-                <h2>Darrell "Dimebag" Abbot</h2>
-                <p>Dime was one of the most</p>
-                <p>influential metal guitarist</p>
-                <p>of his time.</p>
-                <p>From his insane rythms to the</p>
-                <p>insane squealing harmonics.</p>
-                <p>He was</p>
-                <p>tragically while</p>
-                <p>performing on</p>
-                <p>December 8, 2004.</p>
-            </li>
-        
-            <li class="col span-1-of-3 randy">
-                <h2>Randy Rhoads</h2>
-                <p>Randy is best known</p>
-                <p>for his inovative work</p>
-                <p>with Quiet Riot &amp Ozzy Osbourne.</p>
-                <p>There is no telling how far this</p>
-                <p>amazing guitar player could have</p>
-                <p>gone with his carrer.</p>
-                <p>He was killed in aplane crash</p>
-                <p>on March 19, 1982.</p>
-            </li>
-        
-            <li class="col span-1-of-3 stevie">
-                <h2>Stevie Ray Vaughan</h2>
-                <p>Steivie Ray Vaughan was one</p>
-                <p>of the greatest blues guitar</p>
-                <p>players of all time. He had a</p>
-                <p>unique tone and a powerful</p>
-                <p>picking attack and huge bends</p>
-                <p>and even bigger vibratos.<br><br></p>
-                <p>He was killed in a</p>
-                <p>helicopter crash on</p>
-                <p>August 27, 1990.</p>
-            </li>
-        </ul>
-        
-        <hr>
+        <div class="container">
+            <div class="contain-box">
+                <img src="resources/img/dime3.jpeg" alt="Darrell Dimebag Abbot">
+                <div class="a-few-words">
+                    <h2>Darrell "Dimebag" Abbot</h2>
+                    <p>Dime was one of the most</p>
+                    <p>influential metal guitarist</p>
+                    <p>of his time.</p>
+                    <p>From his powerful rythms to the</p>
+                    <p>insane squealing harmonics.</p>
+                    <p>He was tragically</p>
+                    <p>killed while</p>
+                    <p>performing on</p>
+                    <p>December 8, 2004.</p>
+                </div>
+            </div>  
+
+            <div class="contain-box">
+                <img src="resources/img/randy2.jpeg" alt="Randy Rhoads">
+                <div class="a-few-words">
+                    <h2>Randy Rhoads</h2>
+                    <p>Randy is best known</p>
+                    <p>for his inovative work</p>
+                    <p>with Quiet Riot &amp Ozzy Osbourne.</p>
+                    <p>There is no telling how far this</p>
+                    <p>amazing guitar player could have</p>
+                    <p>gone with his carrer.</p>
+                    <p>He was killed in a plane crash</p>
+                    <p>on March 19, 1982.</p>
+                </div>
+            </div>    
+
+            <div class="contain-box">
+                <img src="resources/img/stevie2.jpeg" alt="Stevie Ray Vaughan">
+                <div class="a-few-words2">
+                    <h2>Stevie Ray Vaughan</h2>
+                    <p>Steivie Ray Vaughan was one</p>
+                    <p>of the greatest blues guitar</p>
+                    <p>players of all time. He had a</p>
+                    <p>unique tone and a powerful</p>
+                    <p>picking attack and huge bends</p>
+                    <p>and even bigger vibratos.<br><br></p>
+                    <p>He was killed in a</p>
+                    <p>helicopter crash on</p>
+                    <p>August 27, 1990.</p>
+                </div>
+            </div>
+       </div>
     </section>
     
+    <hr>
     
     <div class="form-box" id="contact">
         <div class="row">
