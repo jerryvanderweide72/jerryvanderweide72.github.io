@@ -27,7 +27,7 @@
     }
     
     .how-to h2, h2 {
-        font-size: 120%;
+        font-size: 109%;
     }
     
     p {
@@ -58,6 +58,27 @@
         margin-right: 6%;
     }
     
+     h1 {
+        font-size: 130%;
+    }
+    
+    .how-to h2, h2 {
+        font-size: 100%;
+    }
+    
+    p {
+        font-size: 85%;
+    }
+    
+    .descrip {
+        width: 100%;
+    }
+    
+    .simple-as {
+        width: 100%;
+        text-align: center;
+    }
+    
     .tributeto {
         height: 270px;
     }
@@ -71,31 +92,29 @@
         margin-bottom: 2%;
     }
     
-    .how-to h2, h2 {
-        font-size: 105%;
-    }
     
-    p {
-        font-size: 85%;
-    }
     
     .lbl-1 {
-        width: 100%;
+        width: 360px;
     }
     
     .lbl-2 {
-        width: 100%;
+        width: 360px;
     }
     
 
     .guitar-selection {
+        float: none;
         width: 200px;
-        margin-left: 80px;
+        margin-left: auto;
+        margin-right: auto;
     }
     
     .guitar-brand {
+        float: none;
         width: 200px;
-        margin-right: 80px;
+        margin-left: auto;
+        margin-right: auto;
     }
     
     
