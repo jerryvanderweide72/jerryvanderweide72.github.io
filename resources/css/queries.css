@@ -79,6 +79,11 @@
     }
     
     /*Header and selection*/
+    
+    .select {
+        margin-top: 35%;
+    }
+    
     .guitar-selection {
         float: none;
         width: 200px;
