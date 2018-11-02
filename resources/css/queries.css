@@ -176,8 +176,16 @@
 
 /* Small phones: from 0 to 480px*/
 @media only screen and (max-width: 480px) {
+    /*Nav section*/
+    .logo {
+    height: 80px;
+}
     
     /*Header and selection*/
+    header {
+        height: 1400px;
+    }
+    
     .go-btn {
         margin-top: 30px;
     }
