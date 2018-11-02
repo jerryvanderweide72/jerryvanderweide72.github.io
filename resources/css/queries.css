@@ -103,12 +103,19 @@
     /*description section*/
     .descrip {
         width: 100%;
+        padding: 0 10px 0 20px;
     }
     
     .simple-as {
-        width: 100%;
+        width: 90%;
         text-align: center;
+        margin-left: auto;
+        margin-right: auto;
     }
+    
+    .how-to p {
+    padding: 0 10px 0 20px;
+}
     
     .how-to p:last-child {
         margin-bottom: 25px;
@@ -178,12 +185,16 @@
 @media only screen and (max-width: 480px) {
     /*Nav section*/
     .logo {
-    height: 80px;
+    height: 70px;
 }
     
     /*Header and selection*/
     header {
-        height: 1400px;
+        height: 1200px;
+    }
+    
+    .choices {
+        margin-top: 150px
     }
     
     .go-btn {
@@ -195,9 +206,8 @@
     }
 
     /*Form*/
-    form {
-        margin-left: auto;
-        margin-right: auto;
+    .contact {
+        width: 100%;
     }
     
     .form-box {
