@@ -80,6 +80,14 @@
     
     /*Header and selection*/
     
+    header {
+        height: 1000px;
+    }
+    
+    .choices {
+        top: 45%;
+    }
+    
     .select {
         margin-bottom: 15px;
     }
@@ -190,7 +198,7 @@
     /*Header and selection*/
     
     .choices {
-        top: 65%;
+        top: 35%;
     }
     
     .go-btn {
