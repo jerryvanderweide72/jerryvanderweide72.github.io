@@ -167,6 +167,10 @@ h1 {
     text-align-last: center;
 }
 
+.sel-box option {
+    text-align: center;
+}
+
 
 /* ========================================== */
 /* BUTTON */
@@ -247,7 +251,10 @@ hr {
     width: 90%;
     margin: 0 auto;
     margin-bottom: 40px;
+    clear: both;
 }
+
+
 
 /* ========================================== */
 /* TRIBUTE */
@@ -271,7 +278,7 @@ hr {
 
 
 .tribute-box h1 {
-    margin-top: 5%;
+    margin-top: 22px;
 }
 
 
@@ -382,8 +389,9 @@ input[name = acoustic] {
 .send-btn a {
     text-decoration: none;
     color: #fff;
-    margin-left: 25%;
+    margin-left: 28%;
 }
+
 
 .send-btn:hover,
 .send-btn:active {

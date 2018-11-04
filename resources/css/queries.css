@@ -40,7 +40,7 @@
     /*Tribute section*/
     .tribute-box h1 {
         font-size: 140%;
-        margin-top: 8%;
+         margin-top: 26px;
     }
  
     .contain-box {
@@ -81,7 +81,6 @@
     /*Header and selection*/
     
     .select {
-        margin-top: 35%;
         margin-bottom: 15px;
     }
     
@@ -190,11 +189,7 @@
     
     /*Header and selection*/
     header {
-        height: 1200px;
-    }
-    
-    .choices {
-        margin-top: 150px
+        height: 1050px;
     }
     
     .go-btn {
@@ -215,7 +210,27 @@
         height: 800px;
     }
     
+    .form-box h3 {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
     
+    .form_box .send-btn {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .contact-form {
+        margin-left: 22%;
+    }
+    
+    /*Footer*/
+    
+    .social-links {
+        margin-top : 10px;
+        margin-bottom: -15px;
+    }
     
 }
 
