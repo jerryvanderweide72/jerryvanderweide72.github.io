@@ -91,11 +91,7 @@
     .choices {
         top: 38%;
     }
-    
-    .select {
-        margin-bottom: 15px;
-    }
-    
+
     .guitar-selection {
         float: none;
         width: 200px;
@@ -198,18 +194,6 @@
 
     
     /*Header and selection*/
-    
-    .choices {
-        top: 35%;
-    }
-    
-    .go-btn {
-        margin-top: 30px;
-    }
-    
-    .your-choice {
-        margin-top: 30px;
-    }
 
     /*Form*/
     .contact {
