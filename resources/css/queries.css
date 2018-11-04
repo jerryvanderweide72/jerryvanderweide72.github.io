@@ -188,8 +188,9 @@
 }
     
     /*Header and selection*/
-    header {
-        height: 1050px;
+    
+    .choices {
+        top: 65%;
     }
     
     .go-btn {
