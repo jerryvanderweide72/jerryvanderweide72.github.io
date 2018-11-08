@@ -89,6 +89,10 @@
     }
     
     .choices {
+        margin-top: 75px;
+    }
+    
+    .choices {
         top: 38%;
     }
 
@@ -195,7 +199,7 @@
     /*Header and selection*/
     
     .choices {
-        margin-top: 25%;
+        margin-top: 160px;
     }
 
     .choices h1, h3 {
@@ -209,18 +213,11 @@
         margin-bottom: 5px;
     }
     
-    .sel-box {
-        
-    }
-    
     .your-choice {
-        font-size: 95%
+        font-size: 95%;
     }
     
     /*Form*/
-    .contact {
-        width: 480px;
-    }
     
     .form-box {
         background-size: 100% 800px;
@@ -233,14 +230,12 @@
         margin-right: auto;
     }
     
-    .form_box .send-btn {
+    .contact-form div {
         margin-left: auto;
         margin-right: auto;
+        
     }
     
-    .contact-form {
-        margin-left: 18%;
-    }
     /*Footer*/
     
     .social-links {
