@@ -193,6 +193,10 @@
 
     
     /*Header and selection*/
+    
+    .choices {
+        margin-top: 25%;
+    }
 
     .choices h1, h3 {
         font-size: 95%;
@@ -215,7 +219,7 @@
     
     /*Form*/
     .contact {
-        width: 100%;
+        width: 480px;
     }
     
     .form-box {
@@ -235,9 +239,8 @@
     }
     
     .contact-form {
-        margin-left: 19%;
+        margin-left: 18%;
     }
-    
     /*Footer*/
     
     .social-links {
