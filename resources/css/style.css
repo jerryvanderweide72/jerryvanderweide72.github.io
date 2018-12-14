@@ -17,7 +17,7 @@ body {
     color: #fff;
 }
 
-h1, 
+h1,
 h2,
 h3 {
     text-transform: uppercase;
@@ -52,8 +52,6 @@ header {
     margin: 0 auto;  /*This is the most simplified version. Works the same as "0 auto 0 auto"*/
 }
 
-/**section { padding: 80px 0; }**/
-
 h1 {
     font-size: 200%;
 }
@@ -83,7 +81,7 @@ h1 {
     margin-left: 40px;
 }
 
-.main-nav li a:link, 
+.main-nav li a:link,
 .main-nav li a:visited {
     text-decoration: none;
     font-size: 125%;
@@ -95,7 +93,7 @@ h1 {
     transition: border-bottom 0.5s;
 }
 
-.main-nav li a:hover, 
+.main-nav li a:hover,
 .main-nav li a:active {
     border-bottom: 2px solid #ff0000;
 }
@@ -323,11 +321,6 @@ hr {
 /* ========================================== */
 
 
-.contact-form {
-    margin-left: 25%;
-}
-
-
 .form-box {
     background-image: url(../img/acoustic_background2.jpg);
     background-repeat: no-repeat;
@@ -342,6 +335,16 @@ hr {
     margin-top: 80px;
     margin-bottom: 40px;
 }
+
+
+
+form {
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
 
 *:focus { outline: none; } /* Gets rid of the outline when selected */
 
@@ -380,8 +383,6 @@ input[name = acoustic] {
     background-color: rgba(0, 185, 0, 0.6);
     border: 1px solid #fff;
     border-radius: 20px;
-    margin-left: auto;
-    margin-right: auto;
     -webkit-transition: background-color 0.5s;
     -o-transition: background-color 0.5s ;
     transition: background-color 0.5s ;
@@ -464,4 +465,3 @@ footer p {
     text-align: center;
     margin-top: 20px;
 }
-
